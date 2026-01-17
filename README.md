@@ -128,11 +128,6 @@ Used to validate feature impact by measuring score drop when a feature is shuffl
 - **Global SHAP:** identifies which features drive churn overall  
 - **Local SHAP:** explains individual predictions (why 1 customer churned)
 
-### ✅ PDP (Partial Dependence Plots)
-Explored how churn probability changes when:
-- `InternetService_Fiber optic` changes (0 → 1)
-- `PaymentMethod_Mailed check` changes (0 → 1)
-
 
 ## 🛠 Tools & Libraries Used
 - Python
@@ -142,7 +137,6 @@ Explored how churn probability changes when:
 - lifelines (Survival Analysis)
 - SHAP
 - eli5 (Permutation Importance)
-- PDPBox
 
 
 ## ✅ Final Conclusion
